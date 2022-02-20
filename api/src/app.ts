@@ -2,8 +2,8 @@ import express, { Application, Request, Response } from 'express';
 
 const app: Application = express();
 
-const jsonDelay: number = 5000;
-const xmlDelay: number = 10000
+const jsonDelay = 5000;
+const xmlDelay = 10000
 
 const jsonObj = {
     "person": [
